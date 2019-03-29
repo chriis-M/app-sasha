@@ -1,0 +1,38 @@
+/* Reset CSS */
+body, html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  padding: 15px; }
+
+h1 {
+  padding-bottom: 24px; }
+
+/* FONT */
+body {
+  color: #4a4a4a; }
+
+.color-error {
+  color: #e87e32; }
+
+.page-item.active .page-link {
+  background-color: #45a4a4;
+  border-color: #45a4a4; }
+
+.page-link {
+  color: #45a4a4; }
+
+/* EMPLACEMENT */
+#afidium_wrapper {
+  display: grid; }
+
+#afidium_wrapper > h1,
+#afidium_wrapper > img {
+  margin: auto;
+  height: 100%; }
+
+#afidium_wrapper > img {
+  height: 250px; }
+
+/*# sourceMappingURL=index.css.map */
