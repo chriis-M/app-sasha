@@ -14,7 +14,11 @@ NODEJS
 Un invite de commandes
 ```
 
-### Installing
+### Running the application
+
+Il suffit d'ouvrir le fichier index.html
+
+### Installing for the tests
 
 Installez les dépendances du projet
 
@@ -33,8 +37,7 @@ npm test
 
 * **Christopher Mussard**
 
-## Acknowledgments
+## Note
 
 * La partie qui gére l'affichage du tableau est traduisible en plusieurs langues il suffit de charger l'URL en fonction de la langue : https://datatables.net/manual/i18n
 * Le plugin permet d'effectuer des tris et des recherches dans le tableau
-* 
