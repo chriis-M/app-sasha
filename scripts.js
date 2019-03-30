@@ -23,9 +23,13 @@ fetch('response.json', myInit)
                 // Def des vars
                 const status = booking.xStatus;
                 const code = booking.code;
-                const clientName = booking.customer.firstName + ' ' + booking.customer.lastName;
 
-
+                // Nom du client
+				if (booking.customer.firstName === undefined) {
+                    clientName = 'Non renseigné';
+                }else{
+	                clientName = booking.customer.firstName + ' ' + booking.customer.lastName;
+                }
 
                 if (booking.begin === undefined) {
                     date = 'Non renseigné';

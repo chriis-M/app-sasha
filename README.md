@@ -2,7 +2,7 @@
 
 # App Sasha Test Technique
 
-Permettre la recherche de dossiers de voayge (aériens ou hôtel)
+Permettre la recherche de dossiers de voyage (aériens ou hôtel)
 
 ### Prerequisites
 
